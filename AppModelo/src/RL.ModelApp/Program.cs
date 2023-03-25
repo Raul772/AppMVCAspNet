@@ -21,6 +21,7 @@ app.MapControllerRoute(
 //  Defaults pode ser utilizado para setar valores padrão a partir de um objeto anonimo
 //  Para mais rotas, chama-se mais vezes o método
 
+app.UseStaticFiles();
 
 // Utiliza-se app.Run() ao invés de app.UseMvc()
 app.Run();
