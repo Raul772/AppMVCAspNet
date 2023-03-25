@@ -24,3 +24,5 @@ C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\obj\Debug
 C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\obj\Debug\net7.0\RL.ModelApp.pdb
 C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\obj\Debug\net7.0\RL.ModelApp.genruntimeconfig.cache
 C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\obj\Debug\net7.0\ref\RL.ModelApp.dll
+C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\obj\Debug\net7.0\RL.ModelApp.RazorAssemblyInfo.cache
+C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\obj\Debug\net7.0\RL.ModelApp.RazorAssemblyInfo.cs
