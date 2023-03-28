@@ -1,6 +1,26 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\raulv\\Documents\\GitHub\\AppMVCAspNet\\AppModelo\\src\\RL.ModelApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\raulv\\Documents\\GitHub\\AppMVCAspNet\\AppModelo\\src\\RL.ModelApp\\wwwroot\\css\\site_bundle.min.css",
+      "PackagePath": "staticwebassets\\css\\site_bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\raulv\\Documents\\GitHub\\AppMVCAspNet\\AppModelo\\src\\RL.ModelApp\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\raulv\\Documents\\GitHub\\AppMVCAspNet\\AppModelo\\src\\RL.ModelApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\raulv\\Documents\\GitHub\\AppMVCAspNet\\AppModelo\\src\\RL.ModelApp\\wwwroot\\js\\site_bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\site_bundle.min.js"
+    },
+    {
       "Id": "C:\\Users\\raulv\\Documents\\GitHub\\AppMVCAspNet\\AppModelo\\src\\RL.ModelApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.css"
     },

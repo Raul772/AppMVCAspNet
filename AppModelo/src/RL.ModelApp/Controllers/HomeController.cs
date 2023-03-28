@@ -7,8 +7,6 @@ namespace RL.ModelApp.Controllers
 
         public IActionResult Index() { 
             
-
-
             return View(); 
         }
 

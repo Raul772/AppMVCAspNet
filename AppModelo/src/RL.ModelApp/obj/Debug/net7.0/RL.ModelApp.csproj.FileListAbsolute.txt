@@ -1,5 +1,8 @@
 C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\bin\Debug\net7.0\appsettings.json
+C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\bin\Debug\net7.0\bundleconfig.json
+C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\bin\Debug\net7.0\libman.json
+C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\bin\Debug\net7.0\RL.ModelApp.staticwebassets.runtime.json
 C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\bin\Debug\net7.0\RL.ModelApp.exe
 C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\bin\Debug\net7.0\RL.ModelApp.deps.json
 C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\bin\Debug\net7.0\RL.ModelApp.runtimeconfig.json
@@ -11,6 +14,8 @@ C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\obj\Debug
 C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\obj\Debug\net7.0\RL.ModelApp.AssemblyInfo.cs
 C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\obj\Debug\net7.0\RL.ModelApp.csproj.CoreCompileInputs.cache
 C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\obj\Debug\net7.0\RL.ModelApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\obj\Debug\net7.0\RL.ModelApp.RazorAssemblyInfo.cache
+C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\obj\Debug\net7.0\RL.ModelApp.RazorAssemblyInfo.cs
 C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\obj\Debug\net7.0\staticwebassets\msbuild.RL.ModelApp.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\obj\Debug\net7.0\staticwebassets\msbuild.build.RL.ModelApp.props
 C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.RL.ModelApp.props
@@ -24,7 +29,3 @@ C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\obj\Debug
 C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\obj\Debug\net7.0\RL.ModelApp.pdb
 C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\obj\Debug\net7.0\RL.ModelApp.genruntimeconfig.cache
 C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\obj\Debug\net7.0\ref\RL.ModelApp.dll
-C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\obj\Debug\net7.0\RL.ModelApp.RazorAssemblyInfo.cache
-C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\obj\Debug\net7.0\RL.ModelApp.RazorAssemblyInfo.cs
-C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\bin\Debug\net7.0\libman.json
-C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp\bin\Debug\net7.0\RL.ModelApp.staticwebassets.runtime.json
