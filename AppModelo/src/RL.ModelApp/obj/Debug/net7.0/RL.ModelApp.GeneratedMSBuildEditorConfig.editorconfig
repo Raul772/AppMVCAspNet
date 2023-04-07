@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\RL.ModelApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/raulv/Documents/GitHub/AppMVCAspNet/AppModelo/src/RL.ModelApp/Modules/Produtos/Views/Cadastro/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xQcm9kdXRvc1xWaWV3c1xDYWRhc3Ryb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raulv/Documents/GitHub/AppMVCAspNet/AppModelo/src/RL.ModelApp/Modules/Produtos/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xQcm9kdXRvc1xWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/raulv/Documents/GitHub/AppMVCAspNet/AppModelo/src/RL.ModelApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

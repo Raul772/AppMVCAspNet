@@ -7,8 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Modules\Produtos\Models\" />
     <Folder Include="Models\" />
     <Folder Include="wwwroot\lib\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.4" />
   </ItemGroup>
 
 </Project>
