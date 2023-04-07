@@ -15,6 +15,7 @@ builder.Services.AddDbContext<TesteContext>(options => options
     .UseSqlServer(connectionString));
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddRoles<IdentityRole>() //    Para trabalhar com Roles do ASP.NET Identity
     .AddEntityFrameworkStores<TesteContext>();
 
 // --------------------------------------------------------------------
