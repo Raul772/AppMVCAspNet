@@ -1,8 +1,9 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.EntityFrameworkCore;
 using Teste.Areas.Identity.Data;
-
+using Teste.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,12 +16,22 @@ builder.Services.AddDbContext<TesteContext>(options => options
     .UseSqlServer(connectionString));
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddRoles<IdentityRole>() //    Para trabalhar com Roles do ASP.NET Identity
+    .AddRoles<IdentityRole>() //    Adicionado Manualmente para trabalhar com Roles do ASP.NET Identity
     .AddEntityFrameworkStores<TesteContext>();
 
 // --------------------------------------------------------------------
 
+//  Registro de Policies através de Claims
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("PodeExcluir", policy => policy.RequireClaim("PodeExcluir"));
 
+    options.AddPolicy("PodeLer", policy => policy.Requirements.Add(new PermissaoNecessaria("PodeLer")));
+    options.AddPolicy("PodeEscrever", policy => policy.Requirements.Add(new PermissaoNecessaria("PodeEscrever")));
+});
+
+//  Injeção de Dependencia Singleton para o Handler de permissões criado
+builder.Services.AddSingleton<IAuthorizationHandler, PermissaoNecessariaHandler>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
