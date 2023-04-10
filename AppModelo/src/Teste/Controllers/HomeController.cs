@@ -51,7 +51,7 @@ namespace Teste.Controllers
         }
 
         // Autorização Customizada => Teste.Extensions
-        [AthorizeClaim("Produtos", "Ler", "Editar")]
+        [AthorizeClaim("Produtos", "Ler")]
         public IActionResult ClaimsCustom()
         {
             return View("Secret");
