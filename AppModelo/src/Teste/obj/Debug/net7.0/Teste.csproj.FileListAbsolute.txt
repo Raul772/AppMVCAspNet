@@ -282,3 +282,5 @@ C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\Teste\obj\Debug\net7.
 C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\Teste\obj\Debug\net7.0\Teste.pdb
 C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\Teste\obj\Debug\net7.0\Teste.genruntimeconfig.cache
 C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\Teste\obj\Debug\net7.0\ref\Teste.dll
+C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\Teste\bin\Debug\net7.0\appsettings.Production.json
+C:\Users\raulv\Documents\GitHub\AppMVCAspNet\AppModelo\src\Teste\bin\Debug\net7.0\appsettings.Staging.json

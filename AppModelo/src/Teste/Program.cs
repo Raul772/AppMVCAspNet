@@ -1,13 +1,19 @@
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.EntityFrameworkCore;
 using Teste.Areas.Identity.Data;
-using Teste.Extensions;
+using Teste.Config;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Utilizando diferentes ambientes de execução
+builder.Configuration
+    .SetBasePath(builder.Environment.ContentRootPath)
+    .AddJsonFile("appsettings.json", true, true)
+    .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", true, true)
+    .AddEnvironmentVariables();
 
+
+#region IdentityScaffolding
 //  Gerado Por Identity Scaffolding ----------------------------------
 
 var connectionString = builder.Configuration.GetConnectionString("TesteContextConnection") ?? throw new InvalidOperationException("Connection string 'TesteContextConnection' not found.");
@@ -21,28 +27,21 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 
 // --------------------------------------------------------------------
 
-//  Registro de Policies através de Claims
-builder.Services.AddAuthorization(options =>
-{
-    options.AddPolicy("PodeExcluir", policy => policy.RequireClaim("PodeExcluir"));
+#endregion
 
-    options.AddPolicy("PodeLer", policy => policy.Requirements.Add(new PermissaoNecessaria("PodeLer")));
-    options.AddPolicy("PodeEscrever", policy => policy.Requirements.Add(new PermissaoNecessaria("PodeEscrever")));
-});
+//  Registro de Policies através de Claims (Externalizado)
+builder.Services.ConfigAuthorizations();
 
-//  Injeção de Dependencia Singleton para o Handler de permissões criado
-builder.Services.AddSingleton<IAuthorizationHandler, PermissaoNecessariaHandler>();
+//  Configurações de injeção de dependência (Externalizado)
+builder.Services.ResolveDependencies();
 
-// Add services to the container.
+
 builder.Services.AddControllersWithViews();
-
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
