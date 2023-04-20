@@ -6,6 +6,7 @@ using KissLog.AspNetCore;
 using KissLog.CloudListeners.Auth;
 using KissLog.CloudListeners.RequestLogsListener;
 using KissLog.Formatters;
+using Teste.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -39,6 +40,7 @@ builder.Services.AddLogging(provider =>
 
 builder.Services.AddHttpContextAccessor();
 
+
 // -------------------------------------------------------------------
 
 #region IdentityScaffolding
@@ -64,7 +66,13 @@ builder.Services.ConfigAuthorizations();
 builder.Services.ResolveDependencies();
 
 
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews(options =>
+{
+    options.Filters.Add<AuditoriaFilter>();
+});
+
+
+
 var app = builder.Build();
 
 

@@ -16,6 +16,8 @@ namespace Teste.Config
                 return Logger.Factory.Get();
             });
 
+            services.AddScoped<AuditoriaFilter>();
+
             return services;
         }
 
